@@ -1,9 +1,20 @@
 const alertList =document.querySelector('.alert-List');
 //const media =document.querySelector('img');
-db.collection('Alerts').get().then(snapshot => {
+
+
+auth.onAuthStateChanged(user=>{
+    if(user){
+       db.collection('Alerts').get().then(snapshot => {
     setUIAlerts(snapshot.docs);
     //console.log(snapshot.docs);
 });
+      setupUI(user);
+    }else{
+    setupUI();
+    setUIAlerts();    
+  }
+  });
+
 
 const setUIAlerts = (data) => {
     let html='';
