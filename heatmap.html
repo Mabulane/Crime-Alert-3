@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <title>Maps Statics</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="heatmap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+  </head>
+  <body>
+  <nav class="top-Nav">
+    
+    <span id="menu">&#9776; C-alert</span>
+    
+          <li><a href="system/signin.html">Sign in</a></li>
+          <li><a href="system/signup.html">Sign up</a></li>
+   
+  </nav>
+
+  <nav id="sideMenu" class="sidenav">
+    <ul>
+      <li><h2>Crime Statics</h2></li>
+      <a href="#" class="closebtn" id="closeNav">&times;</a>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="alert.html">Alert Now</a></li>
+      <li><a href="./system/inbox.html">Inbox</a></li>
+      <li><a href="#">Report</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="logout">Logout</a></li>
+  </ul>
+</nav>
+  <br><br><br>
+  <h1 >Heat Map</h1>
+<div class="maps"></div>   
+
+   
+<br><br>
+  <nav class="bottom-Nav">
+    <ul class="">
+      <li><a id="Home-id"      href="index.html"><div class="h-icon"><i class="fa fa-home" aria-hidden="true" ></i></div>       <div class="a-name">Home</div></a></li>
+      <li><a id="discover-id"  href="heatmap.html"><div class="h-icon"><i class="fa fa-users" aria-hidden="true"></i></div>        <div class="a-name">Discover</div></a></li>
+      <li><a id="search-id"    href="search.html"><div class="h-icon"><i class="fa fa-search" aria-hidden="true"></i></div>       <div class="a-name">Search</div></a></li>
+      <li><a id="bookmark-id"  href="notification.html"><div class="h-icon"><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>   <div class="a-name">Bookmarks</div>    </a></li>
+      <li><a id="profile-id"   href="profile.html"><div class="h-icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>       <div class="a-name">Profile</div></a></li>
+    </ul> 
+  </nav>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+  <script src="./fuctions/app.js"></script>
+  <script src="./fuctions/auth.js"></script>
+  <script src="./fuctions/react.js"></script>
+  <script src="./fuctions/index.js"></script>
+ 
+
+  </body>
+</html>
+
+
+    

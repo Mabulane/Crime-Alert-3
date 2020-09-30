@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>signup</title>
+</head>
+<body>
+  
+<!-------------------------- sign up  page  ----------------------------------->
+<header><a href="../index.html">C-Alert</a></header>
+	  <div class="signup-box">
+            <h1>Sign Up<h1> </div>
+              <form class ="signup" id="signup-form" action="index.html">
+               
+                <p>First Name</p>
+                <input type="text" name="first-name" placeholder ="Enter name" id="first-name">
+                
+                <p>Last Name</p>
+                <input type="text" name="last-name" placeholder ="Enter surname" id="last-name">
+                <br>
+                <label  for="gender">Gender</label>
+                
+                <select class="pv" name="gender" placeholder="choose" id="gender-type">
+                  <!--option value="">select gender</option-->
+                  <option value="Female">Female</option>
+                  <option value="Male">Male</option>
+                </select>
+                <label for="provinces" >Select a Province:</label>
+                    <select class="pv" name="provinces" placeholder="choose" id="Province">
+                      <!--option value="">select Province</option-->  
+                      <option value="Mpumalanga">Mpumalanga</option>
+                        <option value="Limpopo">Limpopo</option>
+                        <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+                        <option value="Eastern Cape">Eastern Cape</option>
+                        <option value="North West">North West</option>
+                        <option value="Northern Cape">Northern Cape</option>
+                        <option value="Western Cape">Western Cape</option>
+                        <option value="Free State">Free State</option>
+                        <option value="Gauteng">Gauteng</option>
+                    </select>
+                
+
+                <p>Phone</p>
+                <input type="text" name="phone-no" placeholder="0760881576" id="phone-no">
+
+                <P>Email</P>
+                <input type="text"  placeholder="Enter email" autocomplete="username"  id="user-email" required>
+
+                <p>Password</p>
+                <input  type="password"  placeholder ="Enter password" autocomplete="current-password" id="user-password" required>
+                <!--p>comfirm password</p>
+                <input  type="password"  placeholder ="Enter password" id="user-password" required-->
+ <br>
+                <input type="submit"  id="submit" value="sign up">   <br>
+                <a href ="signin.html">Sign in</a><br>
+                <a href="#">Forgot your Password?</a><br><br>	
+              </form>
+    <br>
+ 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+<script>
+  // Your web app's Firebase configuration
+</script>
+<script src="./fuctions/app.js"></script>
+<script src="./fuctions/a.SignUp.js"></script>
+
+
+
+</body>
+</html>

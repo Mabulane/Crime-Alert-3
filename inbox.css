@@ -1,0 +1,26 @@
+#sender{ 
+    width: 50%;
+    padding-left: 10px;
+    content: "";
+    margin: auto;
+    border-radius: 2%;
+    float: left;
+    background: white;
+    color: black;
+}
+#receiver{ 
+    width: 50%;
+    margin: auto;
+    border-radius: 2%;
+    float: right;
+    background:white;
+    color: black;
+}
+#sender p{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+#receiver p{
+    padding-left: 10px;
+    padding-right: 10px;
+}

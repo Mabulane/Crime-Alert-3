@@ -1,0 +1,45 @@
+
+.user_p .userProfile {
+    margin: auto;
+    background: white;
+    padding: 40px;
+    width:70%;
+    color: black;
+    box-shadow: 0  0 25px 2px rgba(255, 154, 3, 0.1) ; 
+    line-height: 28px;
+}
+.user_p .userProfile label{
+    color: rgb(188, 161, 143);
+    font-size: 18px;
+}
+.user_p .userProfile .title-label{
+    font-size: 20px;
+    font-weight: bold;
+    color: coral;
+    transform: translateY(-30px);
+    position: absolute;
+    padding-left: 30px;
+}
+
+.user_p .userProfile .info{
+    width: 100%;
+    color: black;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-right: 30%;
+   
+}
+.user_p .userProfile .user_i{
+    width: 100%;
+    height: 200px;
+    background: rgb(76, 147, 150);
+    transform: translateY(-70px);
+    position: obsolate;
+    border-radius: 30px;
+    padding: 0;
+}
+
+.user_p .userProfile .user_i img{
+        width: 100%;
+        border-radius: 30px;
+        
+}
