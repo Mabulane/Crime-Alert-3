@@ -25,7 +25,7 @@ function showPosition(position) {
           location:formCtAlert['location'].value,
           //status:formCtAlert['location'].value,
           //reqMedAssistance:formCtAlert['location'].value,
-          geolocation:[longi,lati],
+          //geolocation:[longi,lati],
           dayPosted:posteddate
    }).then(() =>{
     formCtAlert.reset();
