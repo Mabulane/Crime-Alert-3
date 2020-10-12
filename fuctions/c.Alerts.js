@@ -5,7 +5,7 @@ formCtAlert.addEventListener('submit',(e) =>{
     const posteddate =new Date();
    db.collection('Alerts').add({
           name: formCtAlert['altName'].value,
-          discription: formCtAlert['disc'].value,
+          description: formCtAlert['disc'].value,
           location:formCtAlert['location'].value,
           //status:formCtAlert['location'].value,
           //reqMedAssistance:formCtAlert['location'].value,
